@@ -16,7 +16,7 @@ public class BootifulSkaffoldApplication {
 	@GetMapping("/")
 	public String sayHello(){
 
-		return "Hello Spring boot dev ... Skaffolding  with Jib	";
+		return "Hello Spring boot !!!! Skaffolding  with Jib	";
 	}
 
 }

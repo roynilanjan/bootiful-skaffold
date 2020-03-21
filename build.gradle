@@ -13,6 +13,7 @@ sourceCompatibility = '1.8'
 repositories {
 	mavenCentral()
 }
+
 jib {
 	to {
 		image = 'roynilanjan1/bootifull-skaffold'
@@ -25,10 +26,8 @@ jib {
 	}
 	container {
 		useCurrentTimestamp = true
-		ports = ['8080', '5005']
-		jvmFlags = [
-				'-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005'
-		]
+		ports = ['8080']
+
 	}
 }
 
