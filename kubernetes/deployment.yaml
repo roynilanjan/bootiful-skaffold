@@ -15,7 +15,7 @@ spec:
       containers:
         - name: bootifull-skaffold-pod
           image: roynilanjan1/bootifull-skaffold
-          imagePullPolicy: IfNotPresent
+          # imagePullPolicy: IfNotPresent
           ports:
             - name: http
               containerPort: 8080
